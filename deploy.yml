@@ -1,4 +1,5 @@
 ---
 - hosts: all
+  serial: 1
   roles:
     - bcoe.bashpocalypse
